@@ -74,13 +74,13 @@ The goal of this is to have some sort of tool, potentially cloud linked where a 
 One of the document types that we are missing is having a complete Produciton Readiness Document. While we do have the ops checklists, there is no clean, proper, complete document for ensuring a customers environment is ready to go into production. While the ops checklists may suffice, having an "official" wrapper around it with sign-offs, acknowledgements, known issues, chains of escalation, etc is much more professional and also serves to improve customer experience post-engagement. This builds confidence in the solution with the customer by having a clearly defined plan as well as all emergency buttons, links, contact information, and processes in the event of an emergency as well as acting as a stamp of approval from Confluent (or a stamp of approval with acknowledgements for anything that isn't best practice).
 
 ### Onsite Assistance Document
-Integrated into [Conducting Engagements] (https://confluentinc.atlassian.net/wiki/spaces/SER/pages/81133587/Support+During+An+Engagement)
+Integrated into [Conducting Engagements](https://confluentinc.atlassian.net/wiki/spaces/SER/pages/81133587/Support+During+An+Engagement)
 
 ### E2E Process
-Integrating into [Conducting Engagements] (https://confluentinc.atlassian.net/wiki/spaces/SER/pages/842794512/Conducting+Engagements). Essentially, this is an integration of our current pipeline, potentially some cleaning, and an extension to include the complete customer journey to better facilitate understanding and nurture the relationship between engagement personnel and customers.
+Integrating into [Conducting Engagements](https://confluentinc.atlassian.net/wiki/spaces/SER/pages/842794512/Conducting+Engagements). Essentially, this is an integration of our current pipeline, potentially some cleaning, and an extension to include the complete customer journey to better facilitate understanding and nurture the relationship between engagement personnel and customers.
 
 ### Autoscaling Kafka
 This is more of an engineering progress project and something I had considered putting my hand into and trying various things out. It does get complicated rather quickly.
 
 ### Customer FAQ (deliverable document)
-The [Customer FAQ document] (https://docs.google.com/spreadsheets/d/1f7bRnJ8z1yaiSQo-nB0nymhbndwGQs1C5ZNNqC5ePUE/edit?usp=sharing) is meant to be a complete FAQ of many things that customers ask or have questions or concerns about. There is mixed feelings on this insofar as customer interaction and humanity versus white-glove treatment with "all" the answers a customer could ask. It would be ideal to generate this anyways so the decision can be made on a case by case basis.
+The [Customer FAQ document](https://docs.google.com/spreadsheets/d/1f7bRnJ8z1yaiSQo-nB0nymhbndwGQs1C5ZNNqC5ePUE/edit?usp=sharing) is meant to be a complete FAQ of many things that customers ask or have questions or concerns about. There is mixed feelings on this insofar as customer interaction and humanity versus white-glove treatment with "all" the answers a customer could ask. It would be ideal to generate this anyways so the decision can be made on a case by case basis.
