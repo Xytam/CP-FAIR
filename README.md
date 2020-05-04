@@ -4,7 +4,7 @@ This repository at its core is a list of projects that are interconnected and ar
 Ideally, this will be an undertaking that involves both the tools team as well as the field/professional services teams.
 
 ## Overview
-![image](images/OverviewV1.jpeg)
+![image](images/OverviewV2.jpeg)
 Currently Tracking at: https://confluentinc.atlassian.net/wiki/spaces/~929252932/pages/1228145996/Projects
 
 ## Segments
@@ -14,18 +14,18 @@ Currently Tracking at: https://confluentinc.atlassian.net/wiki/spaces/~929252932
 2. Platform Installer Wrapper
 2.1 Platform Monitoring Package
 2.2 Platform Visual Generation
-3. Autogen Security Document
+3. Autogen Security Document - Documentation Upgrade Initiative
 4. Ultimate Testing Suite
 5. ClusterBreak
 6. Automated Troubleshooting
 7. NLP Assistant
-8. (Semi-Automated) Production Readiness Document / Production Readiness Document Framework
+8. Production Readiness Document - Documentation Upgrade Initiative
 
 ### Separate Creations
 1. Onsite Assistance Document
 2. E2E Process
 3. Autoscaling Kafka
-4. Customer FAQ (deliverable document)
+4. Customer FAQ (deliverable document) - Documentation Upgrade Initiative
 
 
 ## Outlines
@@ -46,7 +46,7 @@ Currently, we have limited monitoring installed by default for customer clusters
 ### Platform Visual Generation
 As it stands, we do not have any platform visualization tools to create a complete cluster architecture overview. This could reasonably simply be done by allowing a brief scan of a subset of a network or even by importing an ansible yml file. This would allow for much easier automated document creation as well as a uniform standard to which reference architectures can be built, shared, and understood.
 
-### Autogen Security Document
+### Autogen Security Document - Documentation Upgrade Initiative
 While we have a large amount of security documentation, we do not have one single deliverable to hand to customers that can be easily tailored to suite their needs. To better facilitate a white-glove treatment and build trust and rapport with customers, having a complete and extensive security document that can be tailored to their environemnt (a-la ps-recommendations asciidocs) is absolutely paramount. Otherwise, it appears as if we lack organization in our security methodology which does not look good. This ideally will leverage and collate a large amount of existing documentation and artifacts as well as add functionality to create a customized security document per-customer. This also enhances the customer story and overall understanding of their environment as it could be separated into 2 segments, 1) customized customer security information and 2) general security information and knowledge, where 1) is more useful for understanding customer story and can be added to customer profiles, and 2) provides a deeper understanding to the customer's security team.
 
 ### Ultimate Testing Suite
@@ -70,7 +70,7 @@ Currently, we have a vague methodology for troubleshooting and COPS has a lot of
 ### NLP Assistant
 The goal of this is to have some sort of tool, potentially cloud linked where a user can ask questions in plain language and receive the correct support articles, documentation, etc. While this is probably better suited as an overarching search tool for version 1(something that combs Github, GDrive, Slack, Knowledge Base, etc) it would be quite cool and something worth boasting about as a version 2 tool.
 
-### (Semi-Automated) Production Readiness Document / Production Readiness Document Framework
+### Production Readiness Document - Documentation Upgrade Initiative
 One of the document types that we are missing is having a complete Produciton Readiness Document. While we do have the ops checklists, there is no clean, proper, complete document for ensuring a customers environment is ready to go into production. While the ops checklists may suffice, having an "official" wrapper around it with sign-offs, acknowledgements, known issues, chains of escalation, etc is much more professional and also serves to improve customer experience post-engagement. This builds confidence in the solution with the customer by having a clearly defined plan as well as all emergency buttons, links, contact information, and processes in the event of an emergency as well as acting as a stamp of approval from Confluent (or a stamp of approval with acknowledgements for anything that isn't best practice).
 
 ### Onsite Assistance Document
@@ -82,5 +82,5 @@ Integrating into [Conducting Engagements](https://confluentinc.atlassian.net/wik
 ### Autoscaling Kafka
 This is more of an engineering progress project and something I had considered putting my hand into and trying various things out. It does get complicated rather quickly.
 
-### Customer FAQ (deliverable document)
+### Customer FAQ (deliverable document) - Documentation Upgrade Initiative
 The [Customer FAQ document](https://docs.google.com/spreadsheets/d/1f7bRnJ8z1yaiSQo-nB0nymhbndwGQs1C5ZNNqC5ePUE/edit?usp=sharing) is meant to be a complete FAQ of many things that customers ask or have questions or concerns about. There is mixed feelings on this insofar as customer interaction and humanity versus white-glove treatment with "all" the answers a customer could ask. It would be ideal to generate this anyways so the decision can be made on a case by case basis.
