@@ -67,6 +67,8 @@ To extend learning opportunities for those that learn best by doing or just for 
 ### Automated Troubleshooting
 Currently, we have a vague methodology for troubleshooting and COPS has a lot of resources available on troubleshooting. Generally speaking, most issues fall into a number of  relatively simplistic categories. Based on some basic log analysis, the automated troubleshooting tool should be able to identify with reasonable amount of certainty what errors equate to what solutions. Even without automatically fixing them, running this tool should provide more simplistic answers such as "SSL Issue, check spelling, check properties files, check permissions, check connectivity, etc" rather than having to dig through log files, attempting to figure things out, etc. This also helps greatly in disconnected/airgapped environments where web access is not prevalent as it should be a self-contained tool.
 
+A solid version 1 of this tool would be something that collates answers from all the sources in ["searching made magical"](https://confluentinc.atlassian.net/wiki/spaces/SER/pages/81133587/Support+During+An+Engagement)
+
 ### NLP Assistant
 The goal of this is to have some sort of tool, potentially cloud linked where a user can ask questions in plain language and receive the correct support articles, documentation, etc. While this is probably better suited as an overarching search tool for version 1(something that combs Github, GDrive, Slack, Knowledge Base, etc) it would be quite cool and something worth boasting about as a version 2 tool.
 
