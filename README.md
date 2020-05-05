@@ -84,3 +84,12 @@ This is more of an engineering progress project and something I had considered p
 
 ### Customer FAQ (deliverable document) - Documentation Upgrade Initiative
 The [Customer FAQ document](https://docs.google.com/spreadsheets/d/1f7bRnJ8z1yaiSQo-nB0nymhbndwGQs1C5ZNNqC5ePUE/edit?usp=sharing) is meant to be a complete FAQ of many things that customers ask or have questions or concerns about. There is mixed feelings on this insofar as customer interaction and humanity versus white-glove treatment with "all" the answers a customer could ask. It would be ideal to generate this anyways so the decision can be made on a case by case basis.
+
+
+##Documentation Upgrade Initiative
+So far the following tasks have been completed
+My wiki updated and integrated into [Conducting Engagements](https://confluentinc.atlassian.net/wiki/spaces/SER/pages/842794512/Conducting+Engagements).
+Added "Becoming Fluent in Confluent" to homepage
+Added Misc How-Tos, Resources/Tools to homepage, added Q2 2020 things to track
+Updated bad links on homepage for timesheets and expenses, also linked definitions
+Added "Common Delivery Collateral" and "Common Engagement Issues" to each engagement type.
