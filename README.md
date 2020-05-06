@@ -6,6 +6,7 @@ Ideally, this will be an undertaking that involves both the tools team as well a
 ## Overview
 ![image](images/OverviewV2.jpeg)
 Currently Tracking at: https://confluentinc.atlassian.net/wiki/spaces/~929252932/pages/1228145996/Projects
+For reference links and related materials, see the above link.
 
 ## Segments
 
@@ -52,7 +53,7 @@ While we have a large amount of security documentation, we do not have one singl
 ### Ultimate Testing Suite
 This is a multi-phase project that involved the creation of a complete testing suite that does the following:
 
-    1. Performance Testing, both throughput and latency
+    1. Performance Testing, both throughput and latency - [basis](https://github.com/confluentinc/streams-perf)
     2. Chaos Testing, break things and see if it keeps working
     3. Troubleshooting ala Offline/Automated Troubleshooting Resource
     4. Healthchecking?
