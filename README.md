@@ -1,6 +1,6 @@
 # CP-FAIR (Framework and Architecture for Improvement Resources
 
-This repository at its core is a list of projects that are interconnected and are envisioned as working together to create a complete automation product suite. 
+This repository at its core is a list of projects that are interconnected and are envisioned as working together to create a complete automation product suite.
 Ideally, this will be an undertaking that involves both the tools team as well as the field/professional services teams.
 
 ## Overview
@@ -38,7 +38,7 @@ An update to the current broker/cluster sizing calculator at [Sizing Calculator]
 An installer that silently installs everything necessary. Run it with sudo and it will pull properties files for local rpm repos/etc. It will then check for installed stuff, OS version, etc for pre-setup (apt-get vs yum etc). Then, it will ask Ansible/K8s, ask some necessary info like broker IPs, broker ports, security, etc. This makes it nice and clean and simple but also allows for integration with a CI/CD pipeline in the background.
 
 This gets extended to include a Tracing Framework Installer/Monitoring Installed by Default, a Mapping/Visual generator. In doing this, it created Platform Monitoring Package and Platform Visual Generation.
-These can either be created as standalone tools or as extensions to our existing IP at Ansible. By creating it as an "add-on" or additional yml file, it becomes a marketable product to encourage upgrading to Confluent Platform or create a new category of "purchasable add-ons" or "Confluent Extensions". 
+These can either be created as standalone tools or as extensions to our existing IP at Ansible. By creating it as an "add-on" or additional yml file, it becomes a marketable product to encourage upgrading to Confluent Platform or create a new category of "purchasable add-ons" or "Confluent Extensions".
 The particular sales and marketing methodology is to be left to the discretion of leadership.
 
 ### Platform Monitoring Package
@@ -54,8 +54,8 @@ While we have a large amount of security documentation, we do not have one singl
 This is a multi-phase project that involved the creation of a complete testing suite that does the following:
 
     1. Performance Testing, both throughput and latency - [basis](https://github.com/confluentinc/streams-perf)
-    2. Chaos Testing, break things and see if it keeps working
-    3. Troubleshooting ala Offline/Automated Troubleshooting Resource
+    2. Chaos Testing, break things and see if it keeps working - basis; my work on Maguire
+    3. Troubleshooting ala Offline/Automated Troubleshooting Resource - [basis](https://github.com/confluentinc/support-bundle)
     4. Healthchecking?
     5. Security Checking
     6. Tuning and Optimal Setting Generation
@@ -63,7 +63,9 @@ This is a multi-phase project that involved the creation of a complete testing s
 This will be elaborated further on the requisite linked page.
 
 ### ClusterBreak
-To extend learning opportunities for those that learn best by doing or just for practice, ClusterBreak is meant to set up clusters via Ansible (with our current deployment of it), then set random things wrong with it to force people to troubleshoot. Ideally, this also feeds the Automated Troubleshooting tool (also occasionally referred to as self-healing coordinator) in terms of testing it. 
+To extend learning opportunities for those that learn best by doing or just for practice, ClusterBreak is meant to set up clusters via Ansible (with our current deployment of it), then set random things wrong with it to force people to troubleshoot. Ideally, this also feeds the Automated Troubleshooting tool (also occasionally referred to as self-healing coordinator) in terms of testing it.
+
+PENDING: ANSIBLE IS BEING REWORKED IN ITS VARIABLE HANDLING, THIS IS ON PENDING AND RELIANT ON ANSIBLE TEAM REWORKING CP-ANSIBLE
 
 ### Automated Troubleshooting
 Currently, we have a vague methodology for troubleshooting and COPS has a lot of resources available on troubleshooting. Generally speaking, most issues fall into a number of  relatively simplistic categories. Based on some basic log analysis, the automated troubleshooting tool should be able to identify with reasonable amount of certainty what errors equate to what solutions. Even without automatically fixing them, running this tool should provide more simplistic answers such as "SSL Issue, check spelling, check properties files, check permissions, check connectivity, etc" rather than having to dig through log files, attempting to figure things out, etc. This also helps greatly in disconnected/airgapped environments where web access is not prevalent as it should be a self-contained tool.
